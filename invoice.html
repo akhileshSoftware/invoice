@@ -1,0 +1,206 @@
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Invoice</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="license" href="https://www.opensource.org/licenses/mit-license/">
+		<script src="script.js"></script>
+
+		<style type="text/css">
+			  
+			
+			  .tg td {
+			    font-family: Arial, sans-serif;
+			    font-size: 14px;
+			    padding: 10px 5px;
+			    border-style: solid;
+			    border-width: 1px;
+			    overflow: hidden;
+			    word-break: normal;
+			    border-color: black;
+			  }
+			
+			  .tg th {
+			    font-family: Arial, sans-serif;
+			    font-size: 14px;
+			    font-weight: normal;
+			    padding: 10px 5px;
+			    border-style: solid;
+			    border-width: 1px;
+			    overflow: hidden;
+			    word-break: normal;
+			    border-color: black;
+			  }
+			
+			  .tg .tg-s268 {
+			    text-align: left
+			  }
+			
+			  .tg .tg-0lax {
+			    text-align: left;
+			    vertical-align: top
+			  }
+
+		</style>
+		
+	</head>
+	<body>
+		<header style="text-align: -webkit-center;">
+			<h1>TAX Invoice</h1>
+			
+			<table class="meta" style="display: none;">
+				
+				<tr style="display: none;">
+					<th><span contenteditable>Amount Due</span></th>
+					<td><span id="prefix" contenteditable>$</span><span>600.00</span></td>
+				</tr>
+			</table>
+			
+			<table class="tg" style="table-layout: fixed; width: 702px">
+						  <colgroup>
+						    <col style="width: 20px">
+						    <col style="width: 295px">
+						    <col style="width: 190px">
+						    <col style="width: 197px">
+						  </colgroup>
+						  <tr>
+						    <th class="tg-s268" colspan="2" rowspan="5"><br><span style="font-weight:bold;float: inherit;">DHANSHREE&amp;ENTREPRISES</span><br><br>HOUSE, NEAR C - BLOCK 14/1, LAHORI SHED <br>C - BLOCK ROAD , ULHASNAGAR<br>GSTIN/UIN - 27BLWPG8638N1Z0<br>State Name : Maharastra. Code 27</th>
+						    <th class="tg-0lax">Invoice No.<br><span contenteditable></span></th>
+						    <th class="tg-0lax">Dated.:<p  id="demo11"></p></th>
+						  </tr>
+						  <tr>
+						    <td class="tg-0lax">Delivery Note <span contenteditable></span></td>
+						    <td class="tg-0lax">Mode/Tems of Payment <span contenteditable></span></td>
+						  </tr>
+						  <tr>
+						    <td class="tg-0lax">Supplier's Ref. <span contenteditable></span></td>
+						    <td class="tg-0lax">Other Reference(s). <span contenteditable></span></td>
+						  </tr>
+						  <tr>
+						    <td class="tg-0lax">Buyer's Order No. <span contenteditable></span></td>
+						    <td class="tg-0lax">Dated.:<p  id="demo12"></p></td>
+						  </tr>
+						  <tr>
+						    <td class="tg-0lax">Despatch Document No. <span contenteditable></span></td>
+						    <td class="tg-0lax">Delivery Note Date <span contenteditable></span></td>
+						  </tr>
+						  <tr>
+						    <td class="tg-s268" colspan="2" rowspan="5">Buyer <br>SHIVAM ELECTRICAL &amp; ELECTRONICS<br><br>State <span style="color:rgb(51, 51, 51)">Name :</span> Maharastra. Code 27<br><br><br></td>
+						    <td class="tg-0lax">Despatched through <span contenteditable></span></td>
+						    <td class="tg-0lax">Destination <span contenteditable></span></td>
+						  </tr>
+						  <tr>
+						    <td class="tg-0lax" colspan="2" rowspan="4">Terms of Delivery</td>
+						  </tr>
+						  <tr>
+						  </tr>
+						  <tr>
+						  </tr>
+						  <tr>
+						  </tr>
+			</table>
+		</header>
+		<form action="processing" method="post">
+		<article>
+			
+			<table class="inventory">
+				<thead>
+					<tr>
+						<th><span contenteditable>Description of Goods</span></th>
+						<th><span contenteditable>HSN/SAC</span></th>
+						<th><span contenteditable>Rate</span></th>
+						<th><span contenteditable>Quantity</span></th>
+						<th><span contenteditable>Amount</span></th>
+					</tr>
+				</thead>
+				<tbody>
+				
+				</tbody>
+			</table>
+			<a class="add">+</a>
+			<table class="balance">
+				<tr>
+					<th><span contenteditable>Amount</span></th>
+					<td><span data-prefix>$</span><span>600.00</span></td>
+				</tr>
+				<tr>
+					<th><span contenteditable>CGST</span></th>
+					<td><span data-prefix>$</span><span contenteditable>0.00</span></td>
+				</tr>
+				<tr>
+					<th><span contenteditable>SGST</span></th>
+					<td><span data-prefix>$</span><span contenteditable>0.00</span></td>
+				</tr>
+				<tr>
+					<th><span contenteditable>Total</span></th>
+					<td><span data-prefix>$</span><span>600.00</span></td>
+				</tr>
+			</table>
+			
+			<table style="height: 2%;"><tr></tr></table>
+			<table class="tg" style="table-layout: auto;width: 100%;">
+				<colgroup>
+				<col style="width: 28px">
+				<col style="width: 28px">
+				<col style="width: 255px">
+				<col style="width: 103px">
+				<col style="width: 107px">
+				<col style="width: 115px">
+				<col style="width: 102px">
+				<col style="width: 106px">
+				<col style="width: 102px">
+				<col style="width: 101px">
+				</colgroup>
+			  <tr>
+			    <th class="tg-34p0" colspan="3" rowspan="2"><br>HSN/SAC</th>
+			    <th class="tg-mums" rowspan="2"><br>Taxable Value</th>
+			    <th class="tg-7btt" colspan="2">Central Tax</th>
+			    <th class="tg-7btt" colspan="2">State Tax</th>
+			    <th class="tg-7btt" colspan="2" rowspan="2"><br>Total <br>Tax Amount</th>
+			  </tr>
+			  <tr>
+			    <td class="tg-j2vi">Rate</td>
+			    <td class="tg-j2vi">Amount</td>
+			    <td class="tg-j2vi">Rate</td>
+			    <td class="tg-j2vi">Amount</td>
+			  </tr>
+			  <tr>
+			    <td class="tg-6ic8" colspan="3">9405</td>
+			    <td id="txtValueID1" class="tg-fymr">0</td>
+			    <td class="tg-fymr">6%</td>
+			    <td id="cgstID1" class="tg-fymr">3</td>
+			    <td class="tg-fymr">6%</td>
+			    <td id="cgstID2" class="tg-fymr">5</td>
+			    <td id="totaltxtValueID1" class="tg-fymr" colspan="2">6</td>
+			  
+			  </tr>
+			  <tr>
+			    <td class="tg-pyvk" colspan="3">TOTAL</td>
+			    <td id="txtValueID2" class="tg-3kij">0</td>
+			    <td class="tg-3kij"></td>
+			    <td id="sgstID1" class="tg-3kij">13</td>
+			    <td class="tg-3kij"></td>
+			    <td id="sgstID2" class="tg-3kij">15</td>
+			    <td id="totaltxtValueID2" class="tg-3kij" colspan="2">16</td>
+			   
+			  </tr>
+		</table>
+		</article>
+		
+		<table class="tg" style="undefined;table-layout: fixed; width: 100%">
+<colgroup>
+<col style="width: 343px">
+<col style="width: 317px">
+</colgroup>
+  <tr>
+    <th class="tg-73oq">Company's PAN   : <span style="font-weight:bold">BLWPG8838N</span><br>Declaration<br>We declare that this invoice shows the actual price of the goods described and that all particulars are true and correct.</th>
+    <th class="tg-73oq">          <span style="font-weight:bold">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  for DHARNSHREE ENTERPRISE</span><br><br><br> <br>  <span style="font-weight:bold">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Authorised Signatory</span></th>
+  </tr>
+</table>
+		
+		<!-- <input type="submit" value="submit"> -->
+		</form>
+		
+	</body>
+</html>
